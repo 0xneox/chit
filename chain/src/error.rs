@@ -1,0 +1,20 @@
+#[derive(Debug, PartialEq, Eq)]
+pub enum Error {
+    FutureBlock,
+    UnknownParent,
+    DuplicateBlock,
+    DuplicateTransaction,
+    OverdueTransaction,
+    InvalidTimestamp,
+    InvalidReceiptsRoot,
+    InvalidStateRoot,
+    InvalidTransactionsRoot,
+    InvalidPublicKey,
+    InvalidProofKey,
+    InvalidProof,
+    InvalidSignature,
+    InvalidFormat,
+    LongFork,
+    UnknownAncestor,
+    NTPError,
+}
