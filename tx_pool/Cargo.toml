@@ -1,0 +1,9 @@
+[package]
+name = "tx_pool"
+version = "0.6.0"
+authors = ["neohex"]
+
+[dependencies]
+lru-cache = "0.1"
+util = { path = "../util" }
+chain = { path = "../chain" }
