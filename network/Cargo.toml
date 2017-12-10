@@ -1,0 +1,20 @@
+[package]
+name = "network"
+version = "0.1.0"
+authors = ["neohex"]
+
+[dependencies]
+toml = "0.4"
+byteorder = "1.0.0"
+parking_lot = "0.4"
+futures = "0.1"
+tokio-io = "0.1"
+tokio-core = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+bytes = "0.4"
+log = "0.3"
+util = { path = "../util" }
+serde = "1.0"
+serde_derive = "1.0"
+chain = {path = "../chain"}
