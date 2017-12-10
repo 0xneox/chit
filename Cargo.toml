@@ -1,0 +1,24 @@
+[package]
+description = "chit demo"
+name = "chit"
+version = "0.1.0"
+authors = ["neohex"]
+
+[[bin]]
+name = "chit"
+path = "./main.rs"
+
+[dependencies]
+clap = "2"
+env_logger = "0.4"
+log = "0.3"
+time = "0.1"
+network = { path = "./network" }
+miner = { path = "./miner" }
+util = { path = "./util" }
+chain = { path = "./chain" }
+crypto = { path = "./crypto" }
+tx_pool = { path = "./tx_pool" }
+kvdb = { path = "./util/kvdb" }
+bincode = "0.8.0"
+parking_lot = "0.4"
