@@ -1,0 +1,14 @@
+[package]
+name = "miner"
+version = "0.1.0"
+authors = ["neohex262@gmail.com"]
+
+[dependencies]
+util = { path = "../util" }
+crypto = {path = "../crypto"}
+network = {path = "../network"}
+chain = {path = "../chain"}
+bincode = "0.8.0"
+log = "0.3"
+parking_lot = "0.4"
+tx_pool = { path = "../tx_pool" }
