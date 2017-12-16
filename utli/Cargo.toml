@@ -1,0 +1,28 @@
+[package]
+name = "util"
+version = "0.1.0"
+authors = []
+
+[dependencies]
+toml = "0.4"
+sha3 = { path = "sha3"}
+bigint = { path = "bigint", features = ["heapsizeof"] }
+rlp = { path = "rlp" }
+serde = "1.0"
+serde_derive = "1.0"
+time = "0.1"
+rustc-hex = "1.0"
+rand = "0.3"
+serde_json = "1.0"
+tiny-keccak= "1.0"
+parking_lot = "0.4"
+elastic-array = "0.9"
+heapsize = "0.4"
+itertools = "0.5"
+ansi_term = "0.9"
+ntp = "0.3"
+hashdb = { path = "hashdb" }
+uuid = { version = "0.4", features = ["v4"] }
+
+[dev-dependencies]
+tempdir = "0.3"
