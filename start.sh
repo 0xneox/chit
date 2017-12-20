@@ -12,7 +12,6 @@ start_node() {
     export DATA_PATH=${PWD}/db
     RUST_LOG=chit nohup ./chit 2>&1 > log &
 }
-
 start_all () {
     start_node 0
     start_node 1
